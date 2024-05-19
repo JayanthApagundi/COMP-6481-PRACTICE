@@ -126,28 +126,84 @@ class Heap{
 
 public class Heaps {
     public static void main(String[] args) {
-        Heap heap= new Heap(10);
-        heap.insert(10);
+        Heap heap= new Heap(24);
         heap.insert(20);
-        heap.insert(15);
-        heap.insert(40);
-        heap.insert(50);
-        heap.insert(100);
-        heap.insert(25);
-        heap.insert(45);
-        heap.insert(12);
-        heap.insert(30);
-        heap.insert(49);
         heap.display();
-        System.out.println("Extracted: "+ heap.extractMin());
-        //heap.decreaseKey(3, 2);
-        //heap.display();
-        //heap.deleteKey(0);
-        //heap.display();
-        int[] sortedArray = heap.HeapSort();
-        System.out.print("Sorted Array: ");
-        for (int i = 0; i < sortedArray.length; i++) {
-            System.out.print(sortedArray[i]+ " ");
-        }
+        heap.insert(12);
+        heap.display();
+        heap.insert(35);
+        heap.display();
+        heap.insert(19);
+        heap.display();
+        heap.insert(7);
+        heap.display();
+        heap.insert(10);
+        heap.display();
+        heap.insert(15);
+        heap.display();
+        heap.insert(24);
+        heap.display();
+        heap.insert(16);
+        heap.display();
+        heap.insert(39);
+        heap.display();
+        heap.insert(5);
+        heap.display();
+        heap.insert(19);
+        heap.display();
+        heap.insert(11);
+        heap.display();
+        heap.insert(3);
+        heap.display();
+        heap.insert(27);
+        heap.display();
+
+        System.out.println("============================================");
+
+        heap.extractMin();
+        heap.display();
+        heap.extractMin();
+        heap.display();
+        heap.extractMin();
+        heap.display();
+        heap.extractMin();
+        heap.display();
+        heap.extractMin();
+        heap.display();
+        heap.extractMin();
+        heap.display();
+
+        System.out.println("============================================");
+
+        heap.insert(20);
+        heap.display();
+        heap.insert(12);
+        heap.display();
+        heap.insert(35);
+        heap.display();
+        heap.insert(19);
+        heap.display();
+        heap.insert(7);
+        heap.display();
+        heap.insert(10);
+        heap.display();
+        heap.insert(15);
+        heap.display();
+        heap.insert(24);
+        heap.display();
+        heap.insert(16);
+        heap.display();
+        heap.insert(39);
+        heap.display();
+        heap.insert(5);
+        heap.display();
+        heap.insert(19);
+        heap.display();
+        heap.insert(11);
+        heap.display();
+        heap.insert(3);
+        heap.display();
+        heap.insert(27);
+        heap.display();
     }
 }
